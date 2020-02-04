@@ -1,16 +1,7 @@
-*{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-}
 
 body{
     font-family: "Cardo",Arial,sans-serif;
-    
-} 
-
+}
 nav{
     height: 80px;
     width: 100%;
@@ -103,7 +94,7 @@ a.active, a:hover{
 header{
    
     background: url('../images/Peter.jpg') no-repeat;
-    height: 800px;
+    height: 750px;
     background-size: cover;
    
 } 
@@ -125,16 +116,104 @@ header{
     background: #0a0a0a;
   } 
 
-  section{
-    padding: 300px 550px;
-    font-size: 4rem;
+ .mantra{ 
+     /*  padding: 20%;*/
+    padding: 22% 30%;
     color: #ffffff;
-} 
-section h6{
-  
-    font-size: 2rem;
-    padding-left: 180px;
+    font-size: 10rem;
     
+} 
+.mantra h6{ 
+    /*  padding: 20%;*/
+  
+   font-size: 4rem;
+   padding-left: 20%;
+   
+}  
+
+.spacingelements{
+    margin-top: 4em;
+    text-transform: uppercase;
 }
+hr{
+    width: 8%;
+    background-color: blue;
+} 
+
+.bio{
+    margin-top: 4em;
+} 
+
+.me{
+   
+    height: 0;
+    padding: 0; /* remove any pre-existing padding, just in case */
+    padding-bottom: 75%; /* for a 4:3 aspect ratio */
+    background-image: url('../images/me.jpg');
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat; 
+    z-index: -1;
+    position: relative;
+    margin-left: 4em;
+} 
+.services{
+    border-radius: 50%;
+} 
+
+.vocals{
+   
+    height: 0;
+    padding: 0; /* remove any pre-existing padding, just in case */
+    padding-bottom: 75%; /* for a 4:3 aspect ratio */
+    background-image: url('../images/vocals.jpg');
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat; 
+    z-index: -1;
+    position: relative;
+    margin-left: 4em;
+} 
+
+.instrument-training{
+   
+    height: 0;
+    padding: 0; /* remove any pre-existing padding, just in case */
+    padding-bottom: 75%; /* for a 4:3 aspect ratio */
+    background-image: url('../images/instrument-training.jpg');
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat; 
+    z-index: -1;
+    position: relative;
+    margin-left: 4em;
+}  
+
+.instrumentalist{
+   
+    height: 0;
+    padding: 0; /* remove any pre-existing padding, just in case */
+    padding-bottom: 75%; /* for a 4:3 aspect ratio */
+    background-image: url('../images/piano.jpg');
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat; 
+    z-index: -1;
+    position: relative;
+    margin-left: 4em;
+}  
+
+.pStyling{
+    text-align: center;
+} 
+
+.ourservices p{
+    font-weight: bold;
+}
+
+
+
+
+
 
 
