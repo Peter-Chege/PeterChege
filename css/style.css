@@ -90,14 +90,29 @@ a.active, a:hover{
     }
     
 } 
-
+/*
 header{
    
     background: url('../images/PeterCover.JPG') no-repeat;
     height: 750px;
     background-size: cover;
+    background-attachment: fixed;
    
+} */
+
+.paralax {
+  
+    background: transparent;
+    background-size: cover;
 } 
+.parallax {
+   min-height: 650px;
+    background: transparent;
+    background-size: cover; 
+    margin: 0px -235px; 
+    padding-top: 25%;
+   
+}
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
@@ -121,6 +136,7 @@ header{
     padding: 22% 30%;
     color: #ffffff;
     font-size: 10rem;
+    text-align: center;
     
 } 
 .mantra h6{ 
@@ -128,11 +144,14 @@ header{
   
    font-size: 4rem;
    padding-left: 20%;
+   text-align: justify;
+   border-top: solid;
+   border-bottom: solid;
    
 }  
 
 .spacingelements{
-    margin-top: 4em;
+    margin-top: 8em;
     text-transform: uppercase;
 }
 hr{
@@ -209,7 +228,23 @@ hr{
 
 .ourservices p{
     font-weight: bold;
-}
+} 
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  } 
+
+  
+  .info{
+    text-align: center;
+      position: relative;
+      color: #ffffff;
+    
+      
+      
+  }
 
 
 
